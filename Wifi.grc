@@ -310,7 +310,7 @@ blocks:
     affinity: ''
     alias: ''
     comment: ''
-    delay: '320'
+    delay: '240'
     maxoutbuf: '0'
     minoutbuf: '0'
     num_ports: '1'
@@ -357,7 +357,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1352, 956.0]
+    coordinate: [1432, 964.0]
     rotation: 0
     state: enabled
 - name: blocks_message_debug_0
@@ -486,7 +486,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1096, 960.0]
+    coordinate: [1176, 972.0]
     rotation: 0
     state: enabled
 - name: ieee802_11_decode_mac_0
@@ -553,7 +553,7 @@ blocks:
     log: 'False'
     maxoutbuf: '0'
     minoutbuf: '0'
-    sync_length: '320'
+    sync_length: '240'
   states:
     bus_sink: false
     bus_source: false
@@ -587,7 +587,7 @@ blocks:
     alias: ''
     bandwidth: '20000000'
     bbdc: 'True'
-    buffer_size: '32768'
+    buffer_size: 32768*3
     comment: ''
     filter: ''
     filter_source: '''Auto'''
@@ -628,7 +628,7 @@ blocks:
     bus_sink: false
     bus_source: false
     bus_structure: null
-    coordinate: [1296, 764.0]
+    coordinate: [1352, 764.0]
     rotation: 0
     state: disabled
 - name: pdu_pdu_to_tagged_stream_0
